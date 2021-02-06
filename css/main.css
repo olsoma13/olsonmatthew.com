@@ -1,0 +1,150 @@
+/*Set Fonts!*/
+@import url("https://fonts.googleapis.com/css?family=Mukta");
+html,h1,h2,h3,h4,h5,h6,a{
+ font-family: Mukta, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";;
+}
+
+/*Nav Tabs*/
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none; }
+
+.nav-link {
+  display: block;
+  padding: 0.5rem 1rem; }
+  .nav-link:hover, .nav-link:focus {
+    text-decoration: none; }
+  .nav-link.disabled {
+    color: #6c757d; }
+
+.nav-tabs {
+  border-bottom: 1px solid #dee2e6; }
+  .nav-tabs .nav-item {
+    margin-bottom: -1px; }
+  .nav-tabs .nav-link {
+    border: 1px solid transparent;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem; }
+    .nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
+      border-color: #e9ecef #e9ecef #dee2e6; }
+    .nav-tabs .nav-link.disabled {
+      color: #6c757d;
+      background-color: transparent;
+      border-color: transparent; }
+  .nav-tabs .nav-link.active,
+  .nav-tabs .nav-item.show .nav-link {
+    color: #495057;
+    background-color: #fff;
+    border-color: #dee2e6 #dee2e6 #fff; }
+  .nav-tabs .dropdown-menu {
+    margin-top: -1px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0; }
+
+.nav-pills .nav-link {
+  border-radius: 0.25rem; }
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #486824; }
+
+.nav-fill .nav-item {
+  flex: 1 1 auto;
+  text-align: center; }
+
+.nav-justified .nav-item {
+  flex-basis: 0;
+  flex-grow: 1;
+  text-align: center; }
+
+.tab-content > .tab-pane {
+  display: none; }
+
+.tab-content > .active {
+  display: block; }
+
+/*Timeline*/
+.timeline{
+ margin: 4em 0;
+    position: relative;
+}
+.timeline h1{
+ color:#F97300;
+ margin: 2em;
+}
+.timeline img{
+  height: 15rem;
+  width: 100%;
+  margin: 1em;
+}
+
+.main-timeline{position:relative}.main-timeline:before{content:"";display:block;width:2px;height:100%;background:#c6c6c6;margin:0 auto;position:absolute;top:0;left:0;right:0}.main-timeline .timeline{margin-bottom:40px;position:relative}.main-timeline .timeline:after{content:"";display:block;clear:both}.main-timeline .icon{width:18px;height:18px;line-height:18px;margin:auto;position:absolute;top:0;left:0;bottom:0;right:0}.main-timeline .icon:before, .main-timeline .icon:after{content:"";width:100%;height:100%;border-radius:50%;position:absolute;top:0;left:0;transition:all 0.33s ease-out 0s}.main-timeline .icon:before{background:#fff;border:2px solid #232323;left:-3px}.main-timeline .icon:after{border:2px solid #c6c6c6;left:3px}.main-timeline .timeline:hover .icon:before{left:3px}.main-timeline .timeline:hover .icon:after{left:-3px}.main-timeline .date-content{width:50%;float:left;margin-top:22px;position:relative}.main-timeline .date-content:before{content:"";width:36.5%;height:2px;background:#c6c6c6;margin:auto 0;position:absolute;top:0;right:10px;bottom:0}.main-timeline .date-outer{width:125px;height:125px;font-size:16px;text-align:center;margin:auto;z-index:1}.main-timeline .date-outer:before, .main-timeline .date-outer:after{content:"";width:125px;height:125px;margin:0 auto;border-radius:50%;position:absolute;top:0;left:0;right:0;transition:all 0.33s ease-out 0s}.main-timeline .date-outer:before{background:#fff;border:2px solid #232323;left:-6px}.main-timeline .date-outer:after{border:2px solid #c6c6c6;left:6px}.main-timeline .timeline:hover .date-outer:before{left:6px}.main-timeline .timeline:hover .date-outer:after{left:-6px}.main-timeline .date{width:100%;margin:auto;position:absolute;top:27%;left:0}.main-timeline .month{font-size:18px;font-weight:700}.main-timeline .year{display:block;font-size:30px;font-weight:700;color:#232323;line-height:36px}.main-timeline .timeline-content{width:50%;padding:20px 0 20px 50px;float:right}.main-timeline .title{font-size:19px;font-weight:700;line-height:24px;margin:0 0 15px 0}.main-timeline .description{margin-bottom:0}.main-timeline .timeline:nth-child(2n) .date-content{float:right}.main-timeline .timeline:nth-child(2n) .date-content:before{left:10px}.main-timeline .timeline:nth-child(2n) .timeline-content{padding:20px 50px 20px 0;text-align:right}@media only screen and (max-width: 991px){.main-timeline .date-content{margin-top:35px}.main-timeline .date-content:before{width:22.5%}.main-timeline .timeline-content{padding:10px 0 10px 30px}.main-timeline .title{font-size:17px}.main-timeline .timeline:nth-child(2n) .timeline-content{padding:10px 30px 10px 0}}@media only screen and (max-width: 767px){.main-timeline:before{margin:0;left:7px}.main-timeline .timeline{margin-bottom:20px}.main-timeline .timeline:last-child{margin-bottom:0}.main-timeline .icon{margin:auto 0}.main-timeline .date-content{width:95%;float:right;margin-top:0}.main-timeline .date-content:before{display:none}.main-timeline .date-outer{width:110px;height:110px}.main-timeline .date-outer:before, .main-timeline .date-outer:after{width:110px;height:110px}.main-timeline .date{top:30%}.main-timeline .year{font-size:24px}.main-timeline .timeline-content, .main-timeline .timeline:nth-child(2n) .timeline-content{width:95%;text-align:center;padding:10px 0}.main-timeline .title{margin-bottom:10px}}
+
+.form-submitted{
+  display: none;
+}
+
+/* Putting my audio playback into a modal so it's a little cleaner! Inspiration from https://www.webdesignerdepot.com/2012/10/creating-a-modal-window-with-html5-and-css3/ */
+.modalDialog {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0,0,0,0.8);
+  z-index: 99999;
+  opacity:0;
+  -webkit-transition: opacity 400ms ease-in;
+  -moz-transition: opacity 400ms ease-in;
+  transition: opacity 400ms ease-in;
+  pointer-events: none;
+}
+
+.modalDialog:target {
+  opacity:1;
+  pointer-events: auto;
+}
+
+.modalDialog > div {
+  width: 400px;
+  position: relative;
+  margin: 15% auto;
+  padding: 20px;
+  border-radius: 10px;
+  background: #f8f9fa;
+}
+
+.modalClose {
+  background: #007bff;
+  color: #fff;
+  line-height: 25px;
+  position: absolute;
+  right: -12px;
+  text-align: center;
+  top: -10px;
+  width: 24px;
+  text-decoration: none;
+  font-weight: bold;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  border-radius: 12px;
+  -moz-box-shadow: 1px 1px 3px #000;
+  -webkit-box-shadow: 1px 1px 3px #000;
+  box-shadow: 1px 1px 3px #000;
+}
+
+.modalClose:hover {
+  background: #0069d9;
+  border-color: #0062cc;
+  color: #fff;
+  text-decoration: none;
+}
+
+/*Adjust the audio playback control panel background color for better visibility within the modal*/
+audio::-webkit-media-controls-panel {
+    background-color: #dadada  ;
+}
