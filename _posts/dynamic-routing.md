@@ -1,6 +1,6 @@
 ---
 title: 'Dynamic Routing and Static Generation'
-excerpt: 'I have many things to say, but just getting started.'
+excerpt: 'I have many things to say, but just getting started. Check back soon for more!'
 coverImage: '/assets/MO-portrait.jpg'
 date: '2020-03-16T05:35:07.322Z'
 author:
