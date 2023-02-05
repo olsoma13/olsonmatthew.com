@@ -1,4 +1,6 @@
 /** @type {import('tailwindcss').Config} */
+const defaultTheme = require('tailwindcss/defaultTheme')
+
 module.exports = {
   content: ['./components/**/*.tsx', './pages/**/*.tsx'],
   theme: {
@@ -24,6 +26,11 @@ module.exports = {
       },
       lineHeight: {
         tight: 1.2,
+      },
+      fontFamily: {
+        'sans': ['Noto Sans', ...defaultTheme.fontFamily.sans],
+        'serif': [...defaultTheme.fontFamily.serif],
+        'mono': [...defaultTheme.fontFamily.mono]
       },
       fontSize: {
         '5xl': '2.5rem',

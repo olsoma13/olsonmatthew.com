@@ -5,6 +5,18 @@ const Meta = () => {
   return (
     <Head>
       <link
+      rel="preconnect"
+        href="https://fonts.googleapis.com"
+      />
+      <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com" 
+        crossOrigin=""
+      />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap"
+        rel="stylesheet"/>
+      <link
         rel="apple-touch-icon"
         sizes="180x180"
         href="/favicon/apple-touch-icon.png"
@@ -33,7 +45,7 @@ const Meta = () => {
       <meta name="theme-color" content="#000" />
       <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
       <meta
-        name="Matthew Olson Portfolio and blog"
+        name="Matthew Olson | Portfolio and blog"
         content="The Marketing Technology focused blog and portfolio for Matthew Olson. St. Paul, Minnesota. USA."
       />
       <meta property="og:image" content={HOME_OG_IMAGE_URL} />
